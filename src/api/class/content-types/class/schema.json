@@ -4,7 +4,8 @@
   "info": {
     "singularName": "class",
     "pluralName": "classes",
-    "displayName": "Class"
+    "displayName": "Class",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -23,6 +24,36 @@
     },
     "Price": {
       "type": "decimal"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "SpecialMessage": {
+      "type": "richtext"
+    },
+    "users_permissions_user": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "classes"
+    },
+    "AvailableSeats": {
+      "type": "integer"
+    },
+    "MaxClassSize": {
+      "type": "integer"
+    },
+    "Location": {
+      "type": "string"
+    },
+    "Age": {
+      "type": "string"
+    },
+    "AltPricing": {
+      "type": "string"
+    },
+    "ShowSpecialMessage": {
+      "type": "boolean"
     }
   }
 }
