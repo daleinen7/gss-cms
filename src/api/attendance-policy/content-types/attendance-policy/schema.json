@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "attendance_policies",
+  "info": {
+    "singularName": "attendance-policy",
+    "pluralName": "attendance-policies",
+    "displayName": "Attendance Policy"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "policy": {
+      "type": "richtext"
+    }
+  }
+}

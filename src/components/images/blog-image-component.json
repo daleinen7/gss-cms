@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_images_blog_image_components",
+  "info": {
+    "displayName": "Blog Image Component",
+    "icon": "photo-video"
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
